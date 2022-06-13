@@ -1,0 +1,20 @@
+#172c3c
+#274862
+#995052
+#d96831
+#e6b33d
+<img
+          onClick={() => toast.success("Produto atualizado com sucesso!")}
+          className="card-button"
+          src={editar}
+        />
+        <img
+          onClick={() => toast.success("Produto adicionado na sacola com sucesso!")}
+          className="card-button"
+          src={addSacola}
+        />{" "}
+        <img
+          onClick={() => toast.success("Produto deletado com sucesso!")}
+          className="card-button"
+          src={deletar}
+        />

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300&display=swap');
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d96831;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #172c3c;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        height: 300px;
+    }
+    header > h1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 7rem;
+    }
+    .header-buttons{
+        top: 230px;
+    }
+}
+@media (max-width: 460px) {
+    header{
+        flex-direction: column;
+        height: 300px;
+    }
+    header > h1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 4.7rem;
+    }
+    .header-buttons{
+        top: 230px;
+    }
+}
+
+.header-buttons{
+    display: flex;
+    width: 140px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.logoSacola{
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+.logoSacola:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.logoAdd{
+    width: 40%; 
+    position: absolute;
+    left: 0;
+}
+
+.logoAdd:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

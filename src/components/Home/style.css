@@ -1,0 +1,26 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 4rem;
+}
+
+.home > h1{
+    color: #fff;
+}
+
+.cardsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.filterPao{
+    padding: .5rem;
+    width: 30%;
+    border: 2px solid #e6b33d;
+    border-radius: 5px;
+}

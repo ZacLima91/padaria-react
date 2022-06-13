@@ -1,0 +1,76 @@
+.modal-deletar-produto {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal-deletar-produto-container {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: #172c3c;
+  border-radius: 6px;
+
+}
+
+.modal-deletar-produto-header {
+  font-size: 1rem;
+  display: flex;
+  font-weight: bold;
+  color: #e6b33d;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding: 0.4rem;
+  align-items: center;
+}
+
+.modal-deletar-produto-header > button {
+  background-color: #e6b33d;
+  border: none;
+  color: #172c3c;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+}
+.modal-deletar-produto-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e6b33d;
+}
+
+.modal-deletar-produto-footer {
+  text-align: center;
+}
+.modal-deletar-produto-footer > button {
+  background-color: #e6b33d;
+  border: none;
+  color: #172c3c;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  margin: 4px;
+}
+
+.modal-deletar-produto-footer > button:hover {
+  background-color: #fff;
+  color: #e6b33d;
+  transform: scale(1.1);
+}
