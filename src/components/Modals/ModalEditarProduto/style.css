@@ -20,6 +20,16 @@
   background-color: #172c3c;
   border-radius: 6px;
 }
+
+@media (max-width: 768px) {
+  .modal-edit-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 .modal-edit-header {
   display: flex;
   justify-content: space-between;

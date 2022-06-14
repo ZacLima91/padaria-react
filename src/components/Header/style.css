@@ -24,7 +24,7 @@ header{
         position: absolute;
         top: 0;
         left: 0;
-        font-size: 7rem;
+        font-size: 150%;
     }
     .header-buttons{
         top: 230px;
