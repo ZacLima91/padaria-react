@@ -1,5 +1,5 @@
 import axios from "axios";
 
-const api = axios.create({ baseURL: "http://localhost:3001/padaria" });
+const api = axios.create({ baseURL: "https://api-padaria.herokuapp.com/padaria/" });
 
 export default api;
